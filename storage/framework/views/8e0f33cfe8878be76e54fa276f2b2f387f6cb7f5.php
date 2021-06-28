@@ -64,8 +64,8 @@
         </div>
 
         <h2>RIPRISTINA PASSWORD</h2>
-        <div class="Informazioni">
-            <div class="Informazioni-elem linea">
+        <div class="Informazioni linea">
+            <div class="Informazioni-elem">
 
                 <div class="successo-msg hidden">
 

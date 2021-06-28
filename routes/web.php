@@ -36,7 +36,6 @@ Route::get("profile/photo",[HomeController::class,'pick']);
 Route::get("profile/user",[HomeController::class,'user']);
 Route::post("profile/upload",[HomeController::class,'upload']);
 Route::post("profile/reset",[HomeController::class,'reset']);
-Route::get("profile/Password/{q}",[HomeController::class,'checkPass']);
 
 Route::get("/menu",[MenuController::class,'index'])->name('menu');
 Route::get("menu/photo",[MenuController::class,'pick']);
