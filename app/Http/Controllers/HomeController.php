@@ -104,10 +104,12 @@ class HomeController extends Controller
         }       
     }
 
-    public function checkPassword($res)
+    public function edit()
     {
-        $query=User::where('id',session('utente_id'))->get();
-        return $query;
+        $request=request();
+        
+        $user=User::find(session('utente_id'));
+
     }
 }
 

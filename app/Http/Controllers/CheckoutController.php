@@ -130,7 +130,7 @@ class CheckoutController extends Controller
                 else 
                 {
                     //Pagamento fallito
-                    return $response->getMessage();
+                    return view('failed')->with('message',$response->getMessage());
                 }
             }
         }
