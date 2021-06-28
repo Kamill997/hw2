@@ -104,13 +104,6 @@ class HomeController extends Controller
         }       
     }
 
-    public function edit()
-    {
-        $request=request();
-        
-        $user=User::find(session('utente_id'));
-
-    }
 }
 
 ?>
