@@ -10,7 +10,7 @@
 
 <body>
     <div class="Pagamento">
-        <img src=img/success.png>
+        <img src=img/Failed.png>
          @if(!empty($message))
         <h1>{{ $message }}</h1>
         @endif

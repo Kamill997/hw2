@@ -121,11 +121,6 @@ body {
     color:white;
   }
 
-/*.profilo input[type=file]
-{
-  display: none;
-}*/
-
   .title {
     font-family: 'Dancing Script', cursive;
     padding-top: 15px;
@@ -136,7 +131,7 @@ body {
 .Navlat {
     background-color: #fff;
     color: #333;
-    height: 83%;
+    height: 90%;
     left: 0;
     padding-top: 20px;
     position: absolute;
@@ -240,6 +235,7 @@ body {
 .Informazioni .errore-msg
 {
   width: 50%;
+  text-align: center;
 }
 
 .successo-msg
@@ -252,6 +248,34 @@ body {
 {
   color: #D8000C;
   background-color: #FFBABA;
+}
+
+.Informazioni.linea
+{
+  width: 80%;
+}
+
+#reset input
+{
+  width: 40%;
+  text-align: center;
+}
+
+#reset .Old-Pass,#reset .New-Pass
+{
+  margin-bottom: 2%;
+}
+
+#reset .submit input
+{
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-size: 15px;
+  background: black;
+  color: white;
+  width: 20%;
+  height: 4%;
 }
 
 .hidden
