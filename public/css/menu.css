@@ -305,6 +305,11 @@ article {
   background-color:#dedede;
 }
 
+.flex-item .addTo button:hover
+{
+  background-color:rgb(199, 181, 23);
+}
+
 .addTo button img
 {
   width:10%;  
